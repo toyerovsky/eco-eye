@@ -1,0 +1,114 @@
+<template>
+    <div class="main">
+        <div class="box-shadow-filter">
+            <div class="header">
+                <div class="label">
+                    <span class="regular green">ECO</span>
+                    <span class="regular bold">EYE</span>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non turpis faucibus, finibus enim et, condimentum est. Quisque cursus ultricies lectus, et vulputate nisl ultrices ut. Pellentesque euismod non lectus ac efficitur. Duis fringilla mi at lorem molestie tempus. Pellentesque gravida fringilla dolor, id commodo mauris dictum vel. Nullam neque mauris, luctus vel est vitae, elementum rhoncus felis. Duis ut placerat lorem. Sed lobortis venenatis semper. Morbi vel dolor vel elit eleifend pharetra eu ut orci. Duis quam arcu, porta id justo a, imperdiet ornare turpis. Etiam hendrerit posuere enim ac feugiat. Nam pellentesque non ex ac scelerisque. Suspendisse tincidunt ex vitae auctor interdum.
+            Quisque urna orci, egestas sagittis rhoncus tempus, imperdiet in neque. Aliquam vestibulum dolor vel mi venenatis interdum. Proin placerat faucibus arcu id fringilla. Suspendisse sit amet nibh volutpat, pretium turpis nec, mattis lorem. In nec lobortis velit. Donec eu ipsum elit. Maecenas tincidunt aliquet sagittis. Sed vitae feugiat odio. Morbi maximus nisi sed orci hendrerit facilisis. Aenean vel nulla ut neque varius consectetur. Duis at erat libero. Sed auctor in orci mattis tincidunt. Integer enim tortor, pretium non dapibus vel, finibus ut sapien.
+            Integer ullamcorper bibendum sapien, ac molestie risus rhoncus ac. Pellentesque tempus quis ante sit amet tempor. Aenean condimentum ac odio eget lacinia. Nam laoreet faucibus ornare. Nunc ac consectetur massa. Proin eu finibus purus, ac tristique purus. Pellentesque sapien ligula, blandit eu auctor non, imperdiet at magna. Fusce facilisis felis sit amet massa varius, et molestie tortor posuere. Nam ac orci porta, pellentesque sem quis, feugiat ex. Praesent tempus bibendum libero.
+            Curabitur volutpat eros eget magna feugiat pellentesque. Nulla ac facilisis velit, id aliquet felis. Sed vitae mi mollis libero faucibus consectetur sed ut nulla. Donec mattis ex in neque tempor tempor. Nulla pretium metus ac sem scelerisque rhoncus. Quisque aliquet semper elit, id volutpat massa. Aliquam elementum nisi vel nisl tincidunt, vitae posuere arcu vehicula. Aliquam at erat lacinia, placerat mauris eget, blandit mi.
+            Sed nisl massa, venenatis vel ante quis, feugiat fringilla neque. Integer arcu elit, tincidunt et fringilla nec, ultrices ut arcu. Morbi bibendum, enim in rutrum lobortis, arcu orci ultricies eros, et consectetur turpis odio in ipsum. Praesent pellentesque elit eu libero cursus, a dignissim massa pulvinar. Donec sit amet tincidunt tortor. Duis nunc metus, volutpat sed mattis at, facilisis in nunc. Nullam dui justo, mattis eget rhoncus quis, cursus ac velit. Duis vel sodales leo, vulputate fermentum nibh. Duis placerat accumsan dolor et tempus. Vestibulum finibus sem eu ligula rutrum, et convallis nulla scelerisque. Nunc tortor mi, tristique a justo et, maximus iaculis tellus.
+        </div>
+        <div class="footer">
+            Test
+        </div>
+
+    </div>
+</template>
+
+<script>
+    import {Component, Vue} from 'vue-property-decorator';
+
+    @Component()
+    export default class MainWindow extends Vue {
+
+    }
+</script>
+
+<style scoped lang="scss">
+    .box-shadow-filter {
+        filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+    }
+    .main {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+
+        .header {
+            width: 100%;
+            height: 285px;
+            clip-path: ellipse(70% 80% at 50% 20%);
+            position: static;
+            -webkit-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+            z-index: 20;
+
+            &::after {
+                content: "";
+                background-size: cover;
+                background-image: url("~@/assets/images/bg-main.png");
+                background-position-y: -0.5em;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                position: absolute;
+                z-index: -1;
+            }
+
+            .label {
+                position: absolute;
+                margin-top: 0.7em;
+                width: 100%;
+                text-align: center;
+                font-size: 1.2em;
+                color: #FFFFFF;
+
+                .regular {
+                    font-family: 'MavenPro-Regular', sans-serif;
+                }
+
+                .bold {
+                    font-family: 'MavenPro-Bold', sans-serif;
+                }
+
+                .green {
+                    color: #18DA66
+                }
+            }
+        }
+
+        .content {
+
+            margin-top: -4.5em;
+            color: #000;
+            font-family: 'MavenPro-Regular', sans-serif;
+            background-color: #FFFFFF;
+            width: 100%;
+            min-height: 100%;
+            box-sizing: border-box;
+            z-index: 10;
+            /*overflow-y: scroll;*/
+            text-align: justify;
+            padding: 5em 1.5em 1.5em;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 5em;
+            background-color: grey;
+        }
+    }
+
+</style>
