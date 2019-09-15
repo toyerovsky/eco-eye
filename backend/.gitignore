@@ -350,3 +350,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+EcoEye.DTO/obj
+EcoEye.Service/obj
+EcoEye.DTO/obj

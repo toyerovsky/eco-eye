@@ -19,7 +19,7 @@ namespace EcoEye
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseUrls("http://0.0.0.0")
+                .UseUrls("http://localhost:6969")
                 .UseStartup<Startup>();
     }
 }
