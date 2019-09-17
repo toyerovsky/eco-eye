@@ -3,10 +3,17 @@ To help those people who want to take care of our planet likewise our future and
 As an additional feature we have appended interesting facts about environmental protection to increase public awareness.
 Moreover we added option that enables us to find garbage can on the map, where we have over 50000 places intended to recycle trash.
 
-Proudly made by VibeTeam:
+
+# YouTube
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/XMThw6fKzB0/0.jpg)](https://www.youtube.com/watch?v=XMThw6fKzB0)
+
+
+# Proudly made by VibeTeam:
+EcoEye was made on HackYeah the biggest stationary hackathon in Europe by:
 - Beata Kozieł
 - Przemysław Postrach
 - Dominik Kaliszewski
 - Karol Steczkiewicz
 - Michał Olejko
 - Dominik Kaliszewski
+a crew also known as VibeTeam :)
