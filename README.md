@@ -16,4 +16,5 @@ EcoEye was made on HackYeah the biggest stationary hackathon in Europe by:
 - Karol Steczkiewicz
 - Michał Olejko
 - Dominik Kaliszewski
-a crew also known as VibeTeam :)
+
+a crew also known as VibeTeam :relaxed:
