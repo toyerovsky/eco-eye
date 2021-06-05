@@ -4583,10 +4583,10 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
-leaflet@^1.2.0:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.5.1.tgz#9afb9d963d66c870066b1342e7a06f92840f46bf"
-  integrity sha512-ekM9KAeG99tYisNBg0IzEywAlp0hYI5XRipsqRXyRTeuU8jcuntilpp+eFf5gaE0xubc9RuSNIVtByEKwqFV0w==
+leaflet@^1.5.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.7.1.tgz#10d684916edfe1bf41d688a3b97127c0322a2a19"
+  integrity sha512-/xwPEBidtg69Q3HlqPdU3DnrXQOvQU/CCHA1tcDQVzOwm91YMYaILjNp7L4Eaw5Z4sOYdbBz6koWyibppd8Zqw==
 
 lines-and-columns@^1.1.6:
   version "1.1.6"
@@ -8121,9 +8121,9 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 ws@^6.0.0, ws@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.1.tgz#442fdf0a47ed64f59b6a5d8ff130f4748ed524fb"
-  integrity sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.2.tgz#dd5cdbd57a9979916097652d78f1cc5faea0c32e"
+  integrity sha512-zmhltoSR8u1cnDsD43TX59mzoMZsLKqUweyYBAIvTngR3shc0W6aOZylZmq/7hqyVxPdi+5Ud2QInblgyE72fw==
   dependencies:
     async-limiter "~1.0.0"
 
